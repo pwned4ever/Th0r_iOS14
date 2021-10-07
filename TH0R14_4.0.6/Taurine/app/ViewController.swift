@@ -193,7 +193,7 @@ class ViewController: UIViewController, ElectraUI {
     private var currentView: (UIView & PanelView)?
     let thorversion = "4.0.6⚡️"
     let thorupdateDate = "1:00AM 10/07/21"
-    let thorurlDownload = "github.com/pwned4ever/Th0r_iOS14/releases/Th0r14.ipa"// "mega.nz/file/BhNxBSgJ#gNcngNQBtXS0Ipa5ivX09-jtIr7BckUhrA7YMkSFaNM"//
+    let thorurlDownload = "github.com/pwned4ever/Th0r_iOS14/blob/main/releases/Th0r14.ipa"// "mega.nz/file/BhNxBSgJ#gNcngNQBtXS0Ipa5ivX09-jtIr7BckUhrA7YMkSFaNM"//
 
     func shareTh0r() {
 
