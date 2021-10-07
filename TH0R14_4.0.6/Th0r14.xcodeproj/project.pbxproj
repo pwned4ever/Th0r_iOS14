@@ -78,6 +78,7 @@
 		F72DADFB26FA98DD00DB5B39 /* gzip.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADF926FA98DD00DB5B39 /* gzip.tar */; };
 		F72DADFC26FA98DD00DB5B39 /* uicache.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADFA26FA98DD00DB5B39 /* uicache.tar */; };
 		F72DAE0726FAD9CF00DB5B39 /* Deeznuts14.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */; };
+		F7521F79270F52B9001EB11F /* sbreload.tar in Resources */ = {isa = PBXBuildFile; fileRef = F7521F73270F52B9001EB11F /* sbreload.tar */; };
 		F78C03B6270805CD00E41B85 /* ldrestart.tar in Resources */ = {isa = PBXBuildFile; fileRef = F78C03B0270805CD00E41B85 /* ldrestart.tar */; };
 		F7B37C3826FD954C00E08F69 /* GunsBlazing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B37C3126FD954B00E08F69 /* GunsBlazing.mp3 */; };
 		F7B37C3926FD954C00E08F69 /* ImmigrantSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */; };
@@ -228,6 +229,7 @@
 		F72DADF926FA98DD00DB5B39 /* gzip.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = gzip.tar; sourceTree = "<group>"; };
 		F72DADFA26FA98DD00DB5B39 /* uicache.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = uicache.tar; sourceTree = "<group>"; };
 		F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = Deeznuts14.tar; sourceTree = "<group>"; };
+		F7521F73270F52B9001EB11F /* sbreload.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = sbreload.tar; sourceTree = "<group>"; };
 		F78C03B0270805CD00E41B85 /* ldrestart.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = ldrestart.tar; sourceTree = "<group>"; };
 		F7B37C3126FD954B00E08F69 /* GunsBlazing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GunsBlazing.mp3; sourceTree = "<group>"; };
 		F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ImmigrantSong.mp3; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 				F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */,
 				F72DADF926FA98DD00DB5B39 /* gzip.tar */,
 				F78C03B0270805CD00E41B85 /* ldrestart.tar */,
+				F7521F73270F52B9001EB11F /* sbreload.tar */,
 				F72DADFA26FA98DD00DB5B39 /* uicache.tar */,
 				F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */,
 				F72DADF226FA98B100DB5B39 /* binbag.tar */,
@@ -613,6 +616,7 @@
 				F72DADE226FA66CB00DB5B39 /* zeusstrap.tar.gz in Resources */,
 				F78C03B6270805CD00E41B85 /* ldrestart.tar in Resources */,
 				8722909125D5BC41008E11FA /* Assets.xcassets in Resources */,
+				F7521F79270F52B9001EB11F /* sbreload.tar in Resources */,
 				F15B3CD325F8162E002C1D78 /* basebinaries.tar in Resources */,
 				F7B37C3926FD954C00E08F69 /* ImmigrantSong.mp3 in Resources */,
 				F72DADF826FA98B100DB5B39 /* binbag.tar in Resources */,
@@ -839,7 +843,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.6;
+				CURRENT_PROJECT_VERSION = 4.0.7;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -852,7 +856,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.6;
+				MARKETING_VERSION = 4.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -871,7 +875,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.6;
+				CURRENT_PROJECT_VERSION = 4.0.7;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -884,7 +888,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.6;
+				MARKETING_VERSION = 4.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
