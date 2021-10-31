@@ -191,8 +191,8 @@ class ViewController: UIViewController, ElectraUI {
     private let colorPickerViewController = UIColorPickerViewController()
     
     private var currentView: (UIView & PanelView)?
-    let thorversion = "4.0.7⚡️"
-    let thorupdateDate = "12:00PM 10/07/21"
+    let thorversion = "4.0.8⚡️"
+    let thorupdateDate = "5:00PM 10/25/21"
     let thorurlDownload = "github.com/pwned4ever/Th0r_iOS14/blob/main/releases/Th0r14.ipa"// "mega.nz/file/BhNxBSgJ#gNcngNQBtXS0Ipa5ivX09-jtIr7BckUhrA7YMkSFaNM"//
 
     func shareTh0r() {
