@@ -843,7 +843,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.7;
+				CURRENT_PROJECT_VERSION = 4.0.8;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -856,7 +856,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.7;
+				MARKETING_VERSION = 4.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -875,7 +875,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.7;
+				CURRENT_PROJECT_VERSION = 4.0.8;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -888,7 +888,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.7;
+				MARKETING_VERSION = 4.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
