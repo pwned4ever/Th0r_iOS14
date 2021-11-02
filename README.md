@@ -1,3 +1,4 @@
+[![Build](https://github.com/pwned4ever/Th0r_iOS14/actions/workflows/build.yml/badge.svg)](https://github.com/pwned4ever/Th0r_iOS14/actions/workflows/build.yml)
 # Taurine
 
 iOS 14 semi-untethered jailbreak.
