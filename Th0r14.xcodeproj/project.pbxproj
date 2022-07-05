@@ -73,13 +73,13 @@
 		F17E754B25FF2E6C008262A7 /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17E74C125FF2CCC008262A7 /* UIApplication+Window.swift */; };
 		F17E754C25FF2E6C008262A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17E74BF25FF2CCB008262A7 /* ViewController.swift */; };
 		F17E755025FF2FAE008262A7 /* ObjcTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E754F25FF2FAE008262A7 /* ObjcTryCatch.m */; };
-		F72DADE226FA66CB00DB5B39 /* zeusstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F72DADE026FA66CB00DB5B39 /* zeusstrap.tar.gz */; };
 		F72DADF826FA98B100DB5B39 /* binbag.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADF226FA98B100DB5B39 /* binbag.tar */; };
 		F72DADFB26FA98DD00DB5B39 /* gzip.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADF926FA98DD00DB5B39 /* gzip.tar */; };
 		F72DADFC26FA98DD00DB5B39 /* uicache.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADFA26FA98DD00DB5B39 /* uicache.tar */; };
-		F72DAE0726FAD9CF00DB5B39 /* Deeznuts14.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */; };
 		F7521F79270F52B9001EB11F /* sbreload.tar in Resources */ = {isa = PBXBuildFile; fileRef = F7521F73270F52B9001EB11F /* sbreload.tar */; };
 		F78C03B6270805CD00E41B85 /* ldrestart.tar in Resources */ = {isa = PBXBuildFile; fileRef = F78C03B0270805CD00E41B85 /* ldrestart.tar */; };
+		F791EDE22874FAAA00A72631 /* zeusstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F791EDE02874FAAA00A72631 /* zeusstrap.tar.gz */; };
+		F791EDE32874FAAA00A72631 /* Deeznuts14.tar in Resources */ = {isa = PBXBuildFile; fileRef = F791EDE12874FAAA00A72631 /* Deeznuts14.tar */; };
 		F7B37C3826FD954C00E08F69 /* GunsBlazing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B37C3126FD954B00E08F69 /* GunsBlazing.mp3 */; };
 		F7B37C3926FD954C00E08F69 /* ImmigrantSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */; };
 /* End PBXBuildFile section */
@@ -224,13 +224,13 @@
 		F17E750625FF2D62008262A7 /* ThemesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesManager.swift; sourceTree = "<group>"; };
 		F17E750725FF2D62008262A7 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F17E754F25FF2FAE008262A7 /* ObjcTryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcTryCatch.m; sourceTree = "<group>"; };
-		F72DADE026FA66CB00DB5B39 /* zeusstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = zeusstrap.tar.gz; sourceTree = "<group>"; };
 		F72DADF226FA98B100DB5B39 /* binbag.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = binbag.tar; sourceTree = "<group>"; };
 		F72DADF926FA98DD00DB5B39 /* gzip.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = gzip.tar; sourceTree = "<group>"; };
 		F72DADFA26FA98DD00DB5B39 /* uicache.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = uicache.tar; sourceTree = "<group>"; };
-		F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = Deeznuts14.tar; sourceTree = "<group>"; };
 		F7521F73270F52B9001EB11F /* sbreload.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = sbreload.tar; sourceTree = "<group>"; };
 		F78C03B0270805CD00E41B85 /* ldrestart.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = ldrestart.tar; sourceTree = "<group>"; };
+		F791EDE02874FAAA00A72631 /* zeusstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = zeusstrap.tar.gz; sourceTree = "<group>"; };
+		F791EDE12874FAAA00A72631 /* Deeznuts14.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = Deeznuts14.tar; sourceTree = "<group>"; };
 		F7B37C3126FD954B00E08F69 /* GunsBlazing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GunsBlazing.mp3; sourceTree = "<group>"; };
 		F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ImmigrantSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -333,15 +333,15 @@
 		F10E69CE25ECFEC300394109 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				F791EDE12874FAAA00A72631 /* Deeznuts14.tar */,
+				F791EDE02874FAAA00A72631 /* zeusstrap.tar.gz */,
 				F7B37C3126FD954B00E08F69 /* GunsBlazing.mp3 */,
 				F7B37C3726FD954C00E08F69 /* ImmigrantSong.mp3 */,
 				F72DADF926FA98DD00DB5B39 /* gzip.tar */,
 				F78C03B0270805CD00E41B85 /* ldrestart.tar */,
 				F7521F73270F52B9001EB11F /* sbreload.tar */,
 				F72DADFA26FA98DD00DB5B39 /* uicache.tar */,
-				F72DAE0626FAD9CF00DB5B39 /* Deeznuts14.tar */,
 				F72DADF226FA98B100DB5B39 /* binbag.tar */,
-				F72DADE026FA66CB00DB5B39 /* zeusstrap.tar.gz */,
 				F15B3CD225F8162E002C1D78 /* basebinaries.tar */,
 				F15B3CF225F81749002C1D78 /* signcert.p12 */,
 				F15B3CD525F8164A002C1D78 /* tar.gz */,
@@ -612,16 +612,16 @@
 				F17E74EA25FF2CCD008262A7 /* Main.storyboard in Resources */,
 				F72DADFC26FA98DD00DB5B39 /* uicache.tar in Resources */,
 				F17E750F25FF2DD9008262A7 /* LaunchScreen.storyboard in Resources */,
+				F791EDE22874FAAA00A72631 /* zeusstrap.tar.gz in Resources */,
 				F15B3CD725F8164B002C1D78 /* tar.gz in Resources */,
-				F72DADE226FA66CB00DB5B39 /* zeusstrap.tar.gz in Resources */,
 				F78C03B6270805CD00E41B85 /* ldrestart.tar in Resources */,
 				8722909125D5BC41008E11FA /* Assets.xcassets in Resources */,
 				F7521F79270F52B9001EB11F /* sbreload.tar in Resources */,
 				F15B3CD325F8162E002C1D78 /* basebinaries.tar in Resources */,
 				F7B37C3926FD954C00E08F69 /* ImmigrantSong.mp3 in Resources */,
 				F72DADF826FA98B100DB5B39 /* binbag.tar in Resources */,
+				F791EDE32874FAAA00A72631 /* Deeznuts14.tar in Resources */,
 				F15B3CD825F8164B002C1D78 /* uicache.gz in Resources */,
-				F72DAE0726FAD9CF00DB5B39 /* Deeznuts14.tar in Resources */,
 				F15B3CF325F81749002C1D78 /* signcert.p12 in Resources */,
 				F72DADFB26FA98DD00DB5B39 /* gzip.tar in Resources */,
 			);
@@ -843,7 +843,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.8;
+				CURRENT_PROJECT_VERSION = 4.1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -856,7 +856,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.8;
+				MARKETING_VERSION = 4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -875,7 +875,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.0.8;
+				CURRENT_PROJECT_VERSION = 4.1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -888,7 +888,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.0.8;
+				MARKETING_VERSION = 4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
