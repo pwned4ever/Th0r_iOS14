@@ -192,7 +192,7 @@ class ViewController: UIViewController, ElectraUI {
     
     private var currentView: (UIView & PanelView)?
     let thorversion = "4.1.1⚡️"
-    let thorupdateDate = "7:00PM 07/09/22"
+    let thorupdateDate = "8:00PM 07/09/22"
     let thorurlDownload = "github.com/pwned4ever/Th0r_iOS14/blob/main/releases/Th0r14.ipa"// "mega.nz/file/BhNxBSgJ#gNcngNQBtXS0Ipa5ivX09-jtIr7BckUhrA7YMkSFaNM"//
 
     func shareTh0r() {
@@ -212,11 +212,11 @@ class ViewController: UIViewController, ElectraUI {
         let anewint = 0
         // progressRing.fontColor = UIColor.green
         let whatsmyuptime = anuptimeaway(Int32(anewint))
-        let items = ["I'm using TH{}R \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) day, Updated \(thorupdateDate). Download @ \(thorurlDownload)"]
+        let items = ["I'm using TH{}R++ \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) day, Updated \(thorupdateDate). Download @ \(thorurlDownload)"]
         let activityVC = UIActivityViewController(activityItems: items, applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.currentView
         
-        let items0 = ["I'm using TH{}R \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) days, Updated \(thorupdateDate). Download @ \(thorurlDownload)"] as [Any]
+        let items0 = ["I'm using TH{}R++ \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) days, Updated \(thorupdateDate). Download @ \(thorurlDownload)"] as [Any]
         let activityVC0 = UIActivityViewController(activityItems: items0, applicationActivities: nil)
         activityVC0.popoverPresentationController?.sourceView = self.currentView
         if whatsmyuptime == 1 {
@@ -341,10 +341,10 @@ class ViewController: UIViewController, ElectraUI {
             //self.zbuttonYEA.isHidden = false
             // progressRing.outerRingColor = UIColor.red
             // progressRing.innerRingColor = UIColor.systemGreen
-           // restoreRootfsSwitch.isOn = false
-           // restoreRootfsSwitch.isEnabled = false
-           // restoreRootfsSwitch.isHidden = true
-
+            /*restoreRootfsSwitch.isOn = false
+            restoreRootfsSwitch.isEnabled = false
+            restoreRootfsSwitch.isHidden = true
+*/
             if restoreRootfsSwitch.isOn == true {
                 if file_exist("/usr/lib/libsubstitute.dylib") && !file_exist("/taurine") && !file_exist("/Th0r") {
                     print("bastard libsubstitute")
@@ -425,10 +425,10 @@ class ViewController: UIViewController, ElectraUI {
                 }
             }
         }
-        //restoreRootfsSwitch.isOn = false
-        //restoreRootfsSwitch.isEnabled = false
-        //restoreRootfsSwitch.isHidden = true
-
+       /* restoreRootfsSwitch.isOn = false
+        restoreRootfsSwitch.isEnabled = false
+        restoreRootfsSwitch.isHidden = true
+*/
         let refreshAlert = UIAlertController(title: "Music set to play?", message: "Want beats?", preferredStyle: .alert)
 
         refreshAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in// (action: UIAlertAction!) in
