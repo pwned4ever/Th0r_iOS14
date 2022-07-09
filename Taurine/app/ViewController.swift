@@ -191,8 +191,8 @@ class ViewController: UIViewController, ElectraUI {
     private let colorPickerViewController = UIColorPickerViewController()
     
     private var currentView: (UIView & PanelView)?
-    let thorversion = "4.1⚡️"
-    let thorupdateDate = "7:00PM 07/05/22"
+    let thorversion = "4.1.1⚡️"
+    let thorupdateDate = "7:00PM 07/09/22"
     let thorurlDownload = "github.com/pwned4ever/Th0r_iOS14/blob/main/releases/Th0r14.ipa"// "mega.nz/file/BhNxBSgJ#gNcngNQBtXS0Ipa5ivX09-jtIr7BckUhrA7YMkSFaNM"//
 
     func shareTh0r() {
@@ -341,7 +341,10 @@ class ViewController: UIViewController, ElectraUI {
             //self.zbuttonYEA.isHidden = false
             // progressRing.outerRingColor = UIColor.red
             // progressRing.innerRingColor = UIColor.systemGreen
-            
+           // restoreRootfsSwitch.isOn = false
+           // restoreRootfsSwitch.isEnabled = false
+           // restoreRootfsSwitch.isHidden = true
+
             if restoreRootfsSwitch.isOn == true {
                 if file_exist("/usr/lib/libsubstitute.dylib") && !file_exist("/taurine") && !file_exist("/Th0r") {
                     print("bastard libsubstitute")
@@ -422,7 +425,10 @@ class ViewController: UIViewController, ElectraUI {
                 }
             }
         }
-        
+        //restoreRootfsSwitch.isOn = false
+        //restoreRootfsSwitch.isEnabled = false
+        //restoreRootfsSwitch.isHidden = true
+
         let refreshAlert = UIAlertController(title: "Music set to play?", message: "Want beats?", preferredStyle: .alert)
 
         refreshAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in// (action: UIAlertAction!) in
