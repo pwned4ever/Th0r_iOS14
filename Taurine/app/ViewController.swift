@@ -212,11 +212,11 @@ class ViewController: UIViewController, ElectraUI {
         let anewint = 0
         // progressRing.fontColor = UIColor.green
         let whatsmyuptime = anuptimeaway(Int32(anewint))
-        let items = ["I'm using TH{}R++ \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) day, Updated \(thorupdateDate). Download @ \(thorurlDownload)"]
+        let items = ["I'm using TH{}R \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) day, Updated \(thorupdateDate). Download @ \(thorurlDownload)"]
         let activityVC = UIActivityViewController(activityItems: items, applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.currentView
         
-        let items0 = ["I'm using TH{}R++ \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) days, Updated \(thorupdateDate). Download @ \(thorurlDownload)"] as [Any]
+        let items0 = ["I'm using TH{}R \(thorversion) for iOS 14.0-14.3, by:\(twitsr), to jailbreak my \(modelName) - \(msgme). Uptime:\(whatsmyuptime) days, Updated \(thorupdateDate). Download @ \(thorurlDownload)"] as [Any]
         let activityVC0 = UIActivityViewController(activityItems: items0, applicationActivities: nil)
         activityVC0.popoverPresentationController?.sourceView = self.currentView
         if whatsmyuptime == 1 {
