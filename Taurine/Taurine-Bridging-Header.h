@@ -11,6 +11,7 @@
 #include "signPAC.h"
 #include "iokit.h"
 #include "patchfinder64.h"
+#include "cutils.h"
 #import "cicuta_virosa.h"
 #import <xpc/xpc.h>
 #include "jailbreak_daemonUser.h"

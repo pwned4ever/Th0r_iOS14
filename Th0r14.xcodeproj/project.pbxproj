@@ -77,6 +77,10 @@
 		F72DADFB26FA98DD00DB5B39 /* gzip.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADF926FA98DD00DB5B39 /* gzip.tar */; };
 		F72DADFC26FA98DD00DB5B39 /* uicache.tar in Resources */ = {isa = PBXBuildFile; fileRef = F72DADFA26FA98DD00DB5B39 /* uicache.tar */; };
 		F7521F79270F52B9001EB11F /* sbreload.tar in Resources */ = {isa = PBXBuildFile; fileRef = F7521F73270F52B9001EB11F /* sbreload.tar */; };
+		F77190652885E4F2006E464B /* ASN1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77190622885E4F2006E464B /* ASN1Parser.swift */; };
+		F77190662885E4F2006E464B /* LZSSDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77190632885E4F2006E464B /* LZSSDecoder.swift */; };
+		F77190672885E4F2006E464B /* ASN1Parser+IM4P.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77190642885E4F2006E464B /* ASN1Parser+IM4P.swift */; };
+		F77190692885E8EF006E464B /* kernelPatchfinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77190682885E8EF006E464B /* kernelPatchfinder.swift */; };
 		F78C03B6270805CD00E41B85 /* ldrestart.tar in Resources */ = {isa = PBXBuildFile; fileRef = F78C03B0270805CD00E41B85 /* ldrestart.tar */; };
 		F791EDE22874FAAA00A72631 /* zeusstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F791EDE02874FAAA00A72631 /* zeusstrap.tar.gz */; };
 		F791EDE32874FAAA00A72631 /* Deeznuts14.tar in Resources */ = {isa = PBXBuildFile; fileRef = F791EDE12874FAAA00A72631 /* Deeznuts14.tar */; };
@@ -228,6 +232,10 @@
 		F72DADF926FA98DD00DB5B39 /* gzip.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = gzip.tar; sourceTree = "<group>"; };
 		F72DADFA26FA98DD00DB5B39 /* uicache.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = uicache.tar; sourceTree = "<group>"; };
 		F7521F73270F52B9001EB11F /* sbreload.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = sbreload.tar; sourceTree = "<group>"; };
+		F77190622885E4F2006E464B /* ASN1Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1Parser.swift; sourceTree = "<group>"; };
+		F77190632885E4F2006E464B /* LZSSDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZSSDecoder.swift; sourceTree = "<group>"; };
+		F77190642885E4F2006E464B /* ASN1Parser+IM4P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASN1Parser+IM4P.swift"; sourceTree = "<group>"; };
+		F77190682885E8EF006E464B /* kernelPatchfinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kernelPatchfinder.swift; sourceTree = "<group>"; };
 		F78C03B0270805CD00E41B85 /* ldrestart.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = ldrestart.tar; sourceTree = "<group>"; };
 		F791EDE02874FAAA00A72631 /* zeusstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = zeusstrap.tar.gz; sourceTree = "<group>"; };
 		F791EDE12874FAAA00A72631 /* Deeznuts14.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = Deeznuts14.tar; sourceTree = "<group>"; };
@@ -320,8 +328,8 @@
 		F10E698F25ECC56D00394109 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F10E699825ECC56D00394109 /* SwiftZSTD.framework */,
 				F10E699A25ECC56D00394109 /* SwiftZSTD.framework */,
+				F10E699825ECC56D00394109 /* SwiftZSTD.framework */,
 				F10E699C25ECC56D00394109 /* SwiftZSTDTests_macOS.xctest */,
 				F10E699E25ECC56D00394109 /* SwiftZSTDTests_iOS.xctest */,
 				F10E69A025ECC56D00394109 /* iOSTestApp.app */,
@@ -377,6 +385,7 @@
 		F17815F825EC0F6E003A2CAF /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				F77190612885E4F2006E464B /* asn1 */,
 				F17BC400260FD5810014910B /* handoff-jbd */,
 				F156B485260D5EB60006A88C /* kexec */,
 				F17815FF25EC0FB8003A2CAF /* swiftUtil.swift */,
@@ -392,6 +401,7 @@
 				F154ECE025F022140062FDF3 /* signPAC.h */,
 				F154ECE125F022140062FDF3 /* signPAC.c */,
 				F104E091260093FD00214144 /* extractKernel.swift */,
+				F77190682885E8EF006E464B /* kernelPatchfinder.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -496,6 +506,16 @@
 				E1877E0E26A8D432000890AD /* ThemeImagePicker.swift */,
 			);
 			path = ThemesManager;
+			sourceTree = "<group>";
+		};
+		F77190612885E4F2006E464B /* asn1 */ = {
+			isa = PBXGroup;
+			children = (
+				F77190622885E4F2006E464B /* ASN1Parser.swift */,
+				F77190632885E4F2006E464B /* LZSSDecoder.swift */,
+				F77190642885E4F2006E464B /* ASN1Parser+IM4P.swift */,
+			);
+			path = asn1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,6 +657,7 @@
 				F17E752325FF2E13008262A7 /* cicuta_log.c in Sources */,
 				F17E752425FF2E13008262A7 /* cicuta_virosa.c in Sources */,
 				F17E752525FF2E13008262A7 /* descriptors_utils.c in Sources */,
+				F77190692885E8EF006E464B /* kernelPatchfinder.swift in Sources */,
 				F17E752625FF2E13008262A7 /* exploit_utilities.c in Sources */,
 				F17E752725FF2E13008262A7 /* fake_element_spray.c in Sources */,
 				F17E752825FF2E13008262A7 /* voucher_utils.c in Sources */,
@@ -650,13 +671,16 @@
 				F17E751925FF2E06008262A7 /* amfidtakeover.swift in Sources */,
 				F17E751A25FF2E06008262A7 /* machoparse.swift in Sources */,
 				F17E751B25FF2E06008262A7 /* kernSlide.swift in Sources */,
+				F77190662885E4F2006E464B /* LZSSDecoder.swift in Sources */,
 				F17E751C25FF2E06008262A7 /* bootstrapUtils.swift in Sources */,
 				F17E751D25FF2E06008262A7 /* vnodeUtil.swift in Sources */,
 				F17E751E25FF2E06008262A7 /* entitleMe.swift in Sources */,
 				F17E751F25FF2E06008262A7 /* signPAC.c in Sources */,
 				F17E752025FF2E06008262A7 /* electra.swift in Sources */,
+				F77190652885E4F2006E464B /* ASN1Parser.swift in Sources */,
 				F17E752125FF2E06008262A7 /* bootstrap.swift in Sources */,
 				F17BC408260FD58F0014910B /* jailbreak_daemonUser.c in Sources */,
+				F77190672885E4F2006E464B /* ASN1Parser+IM4P.swift in Sources */,
 				F17E752A25FF2E22008262A7 /* KernelRW.cpp in Sources */,
 				F17E752B25FF2E22008262A7 /* libgeneral_exception.cpp in Sources */,
 				F17E752C25FF2E22008262A7 /* KernelRwWrapper.cc in Sources */,
@@ -843,7 +867,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.1.1;
+				CURRENT_PROJECT_VERSION = 4.1.2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -856,7 +880,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.1.1;
+				MARKETING_VERSION = 4.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -875,7 +899,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.1.1;
+				CURRENT_PROJECT_VERSION = 4.1.2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Taurine/Info.plist;
@@ -888,7 +912,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
-				MARKETING_VERSION = 4.1.1;
+				MARKETING_VERSION = 4.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.p4e.th0r14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

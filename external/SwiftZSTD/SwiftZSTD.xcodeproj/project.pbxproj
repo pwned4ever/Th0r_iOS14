@@ -11,6 +11,7 @@
 		1B426617252EAD65007D7BDB /* zstd_compress_superblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B426615252EAD65007D7BDB /* zstd_compress_superblock.h */; };
 		1B42661E252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */; };
 		1B42661F252EAD6E007D7BDB /* zstd_compress_superblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B42661D252EAD6E007D7BDB /* zstd_compress_superblock.c */; };
+		606DDB722885F69100D95B1B /* SwiftZSTD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EDDB51E0A2CF100F2713B /* SwiftZSTD.framework */; };
 		B60EDE051E0A307A00F2713B /* DictionaryZSTDProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE011E0A307A00F2713B /* DictionaryZSTDProcessor.swift */; };
 		B60EDE061E0A307A00F2713B /* DictionaryZSTDProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE011E0A307A00F2713B /* DictionaryZSTDProcessor.swift */; };
 		B60EDE071E0A307A00F2713B /* ZSTDDictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EDE021E0A307A00F2713B /* ZSTDDictionaryBuilder.swift */; };
@@ -129,14 +130,11 @@
 		B68A38ED23B1C45F0097BCB7 /* fastcover.c in Sources */ = {isa = PBXBuildFile; fileRef = B68A38E723B1C45F0097BCB7 /* fastcover.c */; };
 		B6A3756B23CEA74C006C8ED4 /* SwiftZSTDBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3756A23CEA74C006C8ED4 /* SwiftZSTDBasicTests.swift */; };
 		B6A3756D23CEA74C006C8ED4 /* SwiftZSTD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EDDA71E0A2C2400F2713B /* SwiftZSTD.framework */; };
-		B6A3758B23CEACDE006C8ED4 /* SwiftZSTD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EDDB51E0A2CF100F2713B /* SwiftZSTD.framework */; };
 		B6A3759123CEACFB006C8ED4 /* SwiftZSTDBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3756A23CEA74C006C8ED4 /* SwiftZSTDBasicTests.swift */; };
 		B6C02D4823D683C40001675F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D4723D683C40001675F /* AppDelegate.swift */; };
 		B6C02D4A23D683C40001675F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D4923D683C40001675F /* ViewController.swift */; };
 		B6C02D4F23D683D40001675F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C02D4E23D683D40001675F /* Assets.xcassets */; };
 		B6C02D6523D6879F0001675F /* SwiftZSTDBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3756A23CEA74C006C8ED4 /* SwiftZSTDBasicTests.swift */; };
-		B6C02D6623D688380001675F /* SwiftZSTD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EDDB51E0A2CF100F2713B /* SwiftZSTD.framework */; };
-		B6C02D6823D688A60001675F /* SwiftZSTD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B60EDDB51E0A2CF100F2713B /* SwiftZSTD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B6E8FDF31F4FC47D007875AC /* compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E8FDF21F4FC47D007875AC /* compiler.h */; };
 		B6E8FDF71F4FC4B5007875AC /* pool.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E8FDF61F4FC4B5007875AC /* pool.h */; };
 		B6E8FDFB1F4FC4E4007875AC /* pool.c in Sources */ = {isa = PBXBuildFile; fileRef = B6E8FDFA1F4FC4E4007875AC /* pool.c */; };
@@ -192,7 +190,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B6C02D6823D688A60001675F /* SwiftZSTD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +297,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606DDB722885F69100D95B1B /* SwiftZSTD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +313,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A3758B23CEACDE006C8ED4 /* SwiftZSTD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +320,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C02D6623D688380001675F /* SwiftZSTD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +597,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60EDE841E0A4B9500F2713B /* SwiftZSTD.h in Headers */,
 				B68A38BD23B1C42E0097BCB7 /* zstd_ldm.h in Headers */,
 				B60EDE3B1E0A30B000F2713B /* mem.h in Headers */,
 				B6FD035D1F6D20D6000202D8 /* StreamHelpers.h in Headers */,
@@ -618,7 +615,6 @@
 				B68A38CB23B1C42E0097BCB7 /* zstd_cwksp.h in Headers */,
 				B60EDE2D1E0A30B000F2713B /* bitstream.h in Headers */,
 				B68A38BB23B1C42E0097BCB7 /* zstd_compress_internal.h in Headers */,
-				B60EDE841E0A4B9500F2713B /* SwiftZSTD.h in Headers */,
 				B60EDE471E0A30B000F2713B /* zstd_internal.h in Headers */,
 				B68A38B523B1C42E0097BCB7 /* zstd_compress_sequences.h in Headers */,
 				B68A38E423B1C44D0097BCB7 /* zstd_ddict.h in Headers */,
@@ -764,7 +760,7 @@
 					B60EDDB41E0A2CF100F2713B = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0940;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B6A3756723CEA74B006C8ED4 = {
 						CreatedOnToolsVersion = 10.1;
@@ -802,8 +798,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B60EDDA61E0A2C2400F2713B /* SwiftZSTD_macOS */,
 				B60EDDB41E0A2CF100F2713B /* SwiftZSTD_iOS */,
+				B60EDDA61E0A2C2400F2713B /* SwiftZSTD_macOS */,
 				B6A3756723CEA74B006C8ED4 /* SwiftZSTDTests_macOS */,
 				B6A3758523CEACDD006C8ED4 /* SwiftZSTDTests_iOS */,
 				B6C02D4423D683C40001675F /* iOSTestApp */,
@@ -1229,8 +1225,9 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1265,6 +1262,8 @@
 				OTHER_CFLAGS = "-Wno-comma";
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.SwiftZSTD;
 				PRODUCT_NAME = SwiftZSTD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1302,8 +1301,9 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1331,6 +1331,8 @@
 				OTHER_CFLAGS = "-Wno-comma";
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.SwiftZSTD;
 				PRODUCT_NAME = SwiftZSTD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
